@@ -1,0 +1,4 @@
+com\sample\sampleproject\controller\UserController.class
+com\sample\sampleproject\SampleProjectApplication.class
+com\sample\sampleproject\entity\User.class
+com\sample\sampleproject\repository\UserRepository.class
