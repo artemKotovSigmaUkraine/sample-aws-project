@@ -1,3 +1,3 @@
 FROM openjdk:21
-COPY target/*.jar sample-aws-project.jar
-ENTRYPOINT ["java", "-jar", "/sample-aws-project.jar"]
+COPY target/sample-aws-project.war sample-aws-project.war
+ENTRYPOINT ["java", "-jar", "/sample-aws-project.war"]
