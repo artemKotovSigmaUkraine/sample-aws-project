@@ -1,4 +1,3 @@
-FROM openjdk:11
-EXPOSE 8080
-ADD target/sample-aws-project.jar sample-aws-project.jar
+FROM openjdk:21
+COPY target/*.jar sample-aws-project.jar
 ENTRYPOINT ["java", "-jar", "/sample-aws-project.jar"]
