@@ -1,4 +1,4 @@
 FROM openjdk:11
 ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+COPY ${JAR_FILE} sample-aws-project.jar
+ENTRYPOINT ["java", "-jar", "/sample-aws-project.jar"]
