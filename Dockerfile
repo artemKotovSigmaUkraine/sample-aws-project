@@ -1,4 +1,4 @@
 FROM openjdk:11
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} sample-aws-project.jar
+EXPOSE 8080
+ADD target/sample-aws-project.jar sample-aws-project.jar
 ENTRYPOINT ["java", "-jar", "/sample-aws-project.jar"]
