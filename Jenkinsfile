@@ -28,6 +28,3 @@ pipeline {
     }
   }
 }
-
-zkotart1987
-QAZqaz244552@
